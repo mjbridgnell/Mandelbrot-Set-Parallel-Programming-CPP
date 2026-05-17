@@ -15,3 +15,9 @@ Each run generates:
 
 Dark pixels = points that escape quickly  
 Light pixels = points that stay longer (or are in the set)
+Run MPI executable:
+mpirun -np 4 ./mandel_mpi
+Run sequential + OpenMP executable
+.\main
+
+![alt text](image.png)
